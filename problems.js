@@ -97,22 +97,30 @@
 // find the largest number from an array
 
 
-// function findLargest(x){ //[5,12,7,9,20,4,2,3];
+function findLargest(x){ //[5,12,7,9,20,4,2,3];
 
-//     let largest = x[0]; //5, 12, 20
+    let largest = x[0]; //5, 12, 20
 
-//     for(let i = 1; i<x.length; i++){
+    for(let i = 1; i<x.length; i++){
 
-//         const currentItem = x[i]
+        const currentItem = x[i]
 
-//         if(currentItem > largest ){
-//             largest = currentItem
-//         }
-//     }
+        if(currentItem > largest ){
+            largest = currentItem
+        }
+    }
 
-//     return largest;
+    // for(let i of x){
+    //     const currentItem =i
 
-// }
+    //     if(currentItem > largest ){
+    //         largest = currentItem
+    //     }
+    // }
+
+    return largest;
+
+}
 
 
 // const arr = [5,12,7,9,20,4,2,3];

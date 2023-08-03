@@ -64,3 +64,5 @@
 //     const result = a*b;
 //     return result;
 // }
+
+// console.log(multi(3,4))
